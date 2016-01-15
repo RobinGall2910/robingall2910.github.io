@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="description" content="Demo project">
+<title>Screen Identifier by aggelosQQ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="shortcut icon" type="image/png" href="http://mybbtests.site90.com/uploads/K0fCRvj.png"/>
+<link rel="shortcut icon" type="image/png" href="http://mybbtests.site90.com/uploads/K0fCRvj.png"/>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<div class="header">
+<h1 style="font-size: 26px;" id="main-title"><a href="/">If you have issues with the screen identifier, please get in touch with me with your screen width and height!</a></h1>
+<div id="innerrule">&nbsp;</div>
+<h3 id="tag-line"><i class="fa fa-arrow-right"></i> Email: robinson[dot]leal7[at]gmail[dot]com</h3>
+<h3 id="tag-line"><i class="fa fa-arrow-right"></i> Skype: xdestroyer217</h3>
+</div>
+<div id="content">
+
+<p id="demo"></p>
+
+<table class="table" style="width: 100%;">
+<tr>
+<th>Screen Width</th>
+<th>Screen Height</th>
+<th>Screen Color Depth</th>
+<th>Screen Pixel Depth</th>
+</tr>
+<tr>
+<td id="screenwidth"></td>
+<td id="screenheight"></td>
+<td id="screencolordepth"></td>
+<td id="screenpixeldepth"></td>
+</tr>
+</table>
+<table class="table" style="float: right; width: 20%;">
+<tr>
+<th>Date & Time</th>
+</tr>
+<tr>
+<td id="date">
+	14 - 01 - 2016<br/>07:08</td>
+</tr>
+</table>
+<br/><br/><br/><br/><br/>
+<h1 id="move"><a href="/game.html">Move to the Game</a></h1>
+<script>
+/*$(document).ready(function() {
+	$("#cloner").click(function() {
+		$("#cloned").text("jQueryFTW ");
+		$("#cloned").addClass("cloned");
+		$("#cloned").clone().appendTo("body");
+		$("#cloned").animate({
+			fontSize: '+=1px'
+		});
+	});
+});*/
+
+</script>
+<!--<h3 class="btn" id="cloner">Click Meh</h3><br/>
+<p id="cloned">jqueryFTW<div id="space"></div></p>-->
+<div id="abovefooter"></div>
+</div> <!-- CLOSE ID CONTENT -->
+<script>
+document.getElementById("screenwidth").innerHTML =
+"<span id='result'>" + screen.width + "</span>";
+
+document.getElementById("screenheight").innerHTML =
+"<span id='result'>" + screen.height + "</span>";
+
+document.getElementById("screencolordepth").innerHTML =
+"<span id='result'>" + screen.colorDepth + "</span>";
+
+document.getElementById("screenpixeldepth").innerHTML =
+"<span id='result'>" + screen.pixelDepth + "</span>";
+</script>
+<div id="footer">
+<p>Coded by aggelosQQ &copy; 2015 - 2016. All Rights Reserved.</p>
+<p>"Borrowed by RobinGall2910 &copy; 2016. None of the rights reserved.</p>
+<a href="http://aggelosqq.netau.net/"><i class="icon"></i> Visit the actual website!</a>
+<br/>
+</div>
+</div>
+</body>
+</html>
