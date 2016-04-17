@@ -1,3 +1,3 @@
 Robin's Website
 ========================
-Just go [here](https://robingall2910.github.io/index.html)
+Just go [here](http://robingall2910.github.io/index.html)
