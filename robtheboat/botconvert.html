@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Discord Bot Converter</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- By abalabahaha -->
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+        }
+
+        .wrap {
+            width: 100%;
+            text-align: center;
+            padding: 16px;
+        }
+
+        h1, input::-webkit-input-placeholder, button {
+            font-family: 'roboto', 'sans-serif';
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        h1 {
+            width: 100%;
+            font-size: 18px;
+            background: #7289DA;
+            color: white;
+            line-height: 150%;
+            border-radius: 3px 3px 0 0;
+            box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        form {
+            display: inline-block;
+            padding: 16px;
+            width: 100%;
+            box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+            padding-bottom: 40px;
+            border-radius: 3px;
+        }
+        form h1, form p {
+            margin: 0;
+            padding: 10px;
+            font-weight: 600;
+        }
+
+        input {
+            margin: 16px 0;
+            width: 100%;
+            display: inline-block;
+            border: none;
+            padding: 10px 0;
+            border-bottom: solid 1px #7289DA;
+            -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+            transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+            background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #7289DA 4%);
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #7289DA 4%);
+            background-position: -328px 0;
+            background-size: 328px 100%;
+            background-repeat: no-repeat;
+            color: #0e6252;
+        }
+        input:focus, input:valid {
+            box-shadow: none;
+            outline: none;
+            background-position: 0 0;
+        }
+        input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+            color: #7289DA;
+            font-size: 11px;
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+            visibility: visible !important;
+        }
+
+        button {
+            font-size: 16px;
+            border: none;
+            background: #7289DA;
+            cursor: pointer;
+            border-radius: 3px;
+            padding: 6px;
+            width: 328px;
+            color: white;
+            margin: 16px;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+        }
+        button:disabled {
+            background: #A2B4E5;
+        }
+        button:hover {
+            -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        body, div, form, input, p, button, h1 {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <form id="convertForm">
+            <h1>Discord Bot Converter</h1>
+            <input placeholder="Application ID (Client ID)" type="text" id="appID" required="required" />
+            <p>Your Discord Account:</p><span>I need this so that I can add the bot to your application, which only your account can access</span><br>
+            <input placeholder="Your Email" type="text" id="userEmail" required="required" />
+            <input placeholder="Your Password" type="password" id="userPassword" required="required" />
+            <p>Your Bot's Discord Account:</p><span>I need this so that I know which bot to add to your application</span><br>
+            <input placeholder="Bot Email" type="text" id="botEmail" required="required" />
+            <input placeholder="Bot Password" type="password" id="botPassword" required="required" />
+            <button id="submitButton">Submit</button><br>
+            <span>Basically, this grabs your token using your email and password, then grabs the bot's token using its email and password, then submits the Convert Bot request<br>None of that <i>WHAT'S MY TOKEN AND WHERE DO I FIND IT</i> hassle</span><br>
+            <span id="result">Status: Loading Javascript...</span>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script>
+        $("#convertForm").submit(function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $("#submitButton").prop("disabled",true);
+
+            $("#result").append("<br>Processing...");
+
+            var appID = $("#appID").val();
+
+            if(appID.length < 10 || appID.length > 25 || !$.isNumeric(appID)) {
+                $("#result").append("<br>Invalid Application ID");
+                $("#submitButton").prop("disabled",false);
+                return;
+            }
+
+            var userEmail = $("#userEmail").val();
+            var userPassword = $("#userPassword").val();
+            var botEmail = $("#botEmail").val();
+            var botPassword = $("#botPassword").val();
+
+            if(userEmail == "") {
+                $("#result").append("<br>Missing the user email");
+                $("#submitButton").prop("disabled",false);
+                return;
+            }
+            if(userPassword == "") {
+                $("#result").append("<br>Missing the user password");
+                $("#submitButton").prop("disabled",false);
+                return;
+            }
+            if(botEmail == "") {
+                $("#result").append("<br>Missing the bot email");
+                $("#submitButton").prop("disabled",false);
+                return;
+            }
+            if(botPassword == "") {
+                $("#result").append("<br>Missing the bot password");
+                $("#submitButton").prop("disabled",false);
+                return;
+            }
+
+            $("#result").append("<br>Getting user token...");
+            $.post("https://discordapp.com/api/auth/login", {email: userEmail, password: userPassword})
+            .fail(function() {
+                $("#result").append("<br>Failed to login with user credentials, check email & password");
+                $("#submitButton").prop("disabled",false);
+            }).done(function(data) {
+                $("#result").append("<br>Got user token: " + data.token);
+                setTimeout(function() {
+                    $("#result").append("<br>Getting bot token...");
+                    $.post("https://discordapp.com/api/auth/login", {email: botEmail, password: botPassword})
+                    .fail(function() {
+                        $("#result").append("<br>Failed to login with bot credentials, check email & password");
+                        $("#submitButton").prop("disabled",false);
+                    }).done(function(data2) {
+                        $("#result").append("<br>Got bot token: " + data2.token);
+                        setTimeout(function() {
+                            $("#result").append("<br>Converting bot account");
+                            $.ajax({
+                                url: "https://discordapp.com/api/oauth2/applications/" + appID + "/bot",
+                                type: "post",
+                                data: '{"token":"" + data2.token + ""}',
+                                headers: {
+                                    "Authorization": data.token,
+                                    "Content-Type": "application/json"
+                                },
+                                dataType: "json"
+                            }).fail(function() {
+                                $("#result").append("<br>Failed to convert bot account, ask Discord API #general");
+                                $("#submitButton").prop("disabled",false);
+                            }).done(function(data3) {
+                                $("#result").append("<br>Converted bot account!");
+                                $("#submitButton").prop("disabled",false);
+                            });
+                        }, 2000);
+                    });
+                }, 2000);
+            });
+        });
+        $("#result").html("Status: waiting for input...");
+    </script>
+</body>
+
+</html>
