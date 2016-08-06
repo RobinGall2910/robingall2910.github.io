@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Robin's Website | RTB</title>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" href="https://robingall2910.github.io/stylesheets/styles.css">
+    <link rel="stylesheet" href="https://robingall2910.github.io/stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://robingall2910.github.io/javascripts/respond.js"></script>
     <meta name="description" content="Help page for the Discord bot, RobTheBoat.">
     <meta name="author" content="Robin#0052">
     <!--[if lt IE 9]>
@@ -26,6 +27,10 @@
 <p><code>Default is "."</code></p>
 <code>Optional = [] - Manditory = ()</code>
 <!--<h2 style="color:red"> RTB will be having problems with connectivity and such until further notice.</h2>-->
+<p>Want the beta bot, that is expected to break like always? Here's the <a href="https://bots.discord.pw/bots/210157254651936778">link.</a></p>
+<p>Updated August 6th, 2016</p>
+<p>.joinserver - If you want to invite this bot to other servers :0</p>
+<h3>---Music Category---</h3>
 <p>.play (song link/name of the song) - Plays the song, or adds it to the queue list if it's already playing.</p>
 <p>.queue - Lists the queue list.</p>
 <p>.np - Prints out whats currently playing through the bot.</p>
@@ -36,68 +41,69 @@
 <p>.pause/.resume - you know what this does.</p>
 <p>.volume - Raises the volume through 1 - 100 (USE ACTUAL NUMBERS, NO INTEGERS.)</p>
 <p>.summon - Summons the bot to your voice channel~</p>
+<p>.disconnect - Makes the bot leave the voice channel.</p>
+<h3>---Moderation Category---</h3>
 <p>.clean [amount] - cleans the messages said by the bot</p>
 <p>.blacklist/.whitelist (+/-/add/remove) - Adds or removes user from the blacklist/whitelist. Blacklisted users can't use the bot, whitelisted users can if its enabled.</p>
-<p>.help - Prints basic list of commands.</p>
-<p>.id [@user] - Prints Discord ID of a user, or yourself.</p>
+<p>.nickreset and .nick</p>
 <p>.listroles - Lists the roles of the server to you in a PM.</p>
 <p>.perms - Prints the permissions of the user in a PM.</p>
-<p>.joinserver - This command is no longer supported, please do it to get the OAuth link.</p>
-<p>.timetodie - *Owner Only* - Kills the process.</p>
-<p>.reboot - *Owner Only* - Restarts the process.</p>
+<p>.ban - Banning command! Bans a user and deletes their messages 7 days prior.</p>
+<p>.unban - Works.. sometimes. Do it manually will ya?</p>
+<p>.kick - Boot someone off.</p>
+<h3>---Information Category---</h3>
+<p>.st - Speedtest <i>my bot?</i></p>
+<p>.yourinfo - shows your information</p>
+<p>.serverdata - shows the server information</p>
+<p>.wiki (whatever it is) - TRAVEL THE PAGES OF WIKIPEDIAAA (might want to use underscores if it doesn't work w/ spaces)</p>
+<p>.stats - RTB System Statistics</p>
+<p>.ver - See version, and what date it was built on.</p>
+<p>.help2 - idk backup of the old help</p>
+<p>.github - Shows the github repository.</p>
+<p>.listids - Lists IDs from a server to you, sends a text file.</p>
+<p>.updates - Shows what's new</p>
+<p>.help - Prints basic list of commands.</p>
+<p>.id [@user] - Prints Discord ID of a user, or yourself.</p>
+<h3>---Misc Category---</h3>
 <p>.kys - You already know its coming.</p>
 <p>.nope - it's obvious, your eyes are burning.</p>
 <p>.dab - Watch squiddy dab.</p>
 <p>.ping - Pings the guild server</p>
-<p>.rga - *Owner Only* - Sets a "Playing" message from the list.</p>
-<p>.gsh - *Owner Only* - Nothing special, just sets the message for Playing as ".help for help!"</p>
 <!--WHATEVER SHALL I DO WITH MY STUPID SET YOUR OWN GAME MESSAGE FFS-->
 <p>.talk - Talk with my bot, it's Cleverbot.</p>
 <p>.say (message) - It's <strong>lit</strong>. Makes the bot say a message.</p>
-<p>.listids - Lists IDs from a server to you, sends a text file.</p>
 <p>.ship (user x user) - Ships a person to another person or thing and makes them happily forever after.</p>
 <p>.date - Self explaintory. States the bot's time and date. All in Eastern Standard Time/Eastern Daylight Savings Time.</p>
 <p>.kill (person) OR (yourself) - kill or suicide.</p>
 <p>.memeg (template/toptext/bottomtext) - Attempt at trying to make a meme generator. You can use spaces.</p>
-<p>.spamthefuckoutofeveryone - ily2 Autumn, you bastard</p>
-<p>.disconnect - Makes the bot leave the voice channel.</p>
-<p>.info - RTB System Statistics</p>
-<p>.ver - See version, and what date it was built on.</p>
-<p>.help2 - idk backup of the old help</p>
-<p>.updates - Shows what's new</p>
 <p>.perf - idk something</p>
-<p>.rtb - *Owner Only* - RTB System</p>
 <p>.kym (meme) - Know Your Meme</p>
 <p>.setgame - Changes the playing status</p>
 <p>.honk - honk honk</p>
 <p>.force/.deny/.allow - u know</p>
 <p>.throw [player] - throw shit at someone or at yourself</p>
 <p>.pldump (link) - playlist dump</p>
-<p style="color:orange;"> === NEW COMMANDS === </p>
 <p>.serverinv - link to the server where RTB thus exist</p>
 <p>.rate (player) - Rate you, or your faggot friends!</p>
-<p>.spamandkys - *Owner Only* - Straightfoward, does ratelimit kek</p>
 <p>.notifydev (message) - Notifies the developer for Some Dragon, please, if there's an exploit or an error, use this.</p>
-<p>.msgfags (ID) (message) - *Owner Only* - Messages the user being an idiot.</p>
 <p>.fursecute (player) (furry species) - C'mon, want to fursecute some furries like the developer? Try it out.</p>
 <p>.furfag (player) - lolutried</p>
 <p>.pressf - Pay your respects. (just saying "f" would be comin soon)</p>
-<p>.github - Shows the github repository.</p>
 <p>.python - oh sorry im in the way</p>
 <p>.uploadfile "folder/file.extension" - just grabs whatever is in the bot folder. you need to know what's in it first though lol</p>
 <p>.lameme - LA MEME XD XD XD</p>
 <p>.nick and .nickreset are WIP.</p>
 <p>.e621 and .rule34 - seriouslyiblamemyfriendsforthis</p>
-<p>.yourinfo - shows your information</p>
-<p>.serverdata - shows the server information</p>
-<p>.wiki (whatever it is) - TRAVEL THE PAGES OF WIKIPEDIAAA</p>
 <p>Coming soon - .8ball - the holy grail</p>
-<p>Coming soon - .help would DM and would link this page or say all of the commands instead of clicking on a website.</p>
+<h3>---Owner Only Commands---</h3>
+<p><p>.msgfags (ID) (message) - *Owner Only* - Messages the user to forbid from being an idiot again.</p></p>
+<p>.spamandkys - *Owner Only* - Straightfoward, does ratelimit kek</p>
+<p>.rga - *Owner Only* - Sets a "Playing" message from the list.</p>
+<p>.gsh - *Owner Only* - Nothing special, just sets the message for Playing as ".help for help!"</p>
+<p>.timetodie - *Owner Only* - Kills the process.</p>
+<p>.reboot - *Owner Only* - Restarts the process.</p>
 <p>.terminal - *Owner Only* - Access to the VPS Terminal OuO</p>
-<p>.st - Speedtest <i>my bot?</i></p>
-<p></p>
-<p>WEBSITE FORMATTING COMING LATER UGH</p>
-<p>Updated June 27th, 2016</p>
-<p></p>
+<p>.rtb - *Owner Only* - RTB System</p>
+<p>.spamthefuckoutofeveryone - ily2 Autumn, you bastard</p>
 </body>
 </html> 
