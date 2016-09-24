@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://robingall2910.github.io/stylesheets/github-dark.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="https://robingall2910.github.io/javascripts/respond.js"></script>
-    <meta name="description" content="Help page for the Discord bot, RobTheBoat.">
+    <meta name="description" content="Help page for the Discord bot, RobTheBoat. Lastly Updated September 24, 2016.">
     <meta name="author" content="Robin#0052">
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -32,29 +32,37 @@
 <p>.joinserver - If you want to invite this bot to other servers :0</p>
 <h3>---Music Category---</h3>
 <p>.play (song link/name of the song) - Plays the song, or adds it to the queue list if it's already playing.</p>
+<p>.stream (stream link) - unlike .play, this actually plays live streaming videos for example, a twitch stream.</p>
 <p>.queue - Lists the queue list.</p>
 <p>.np - Prints out whats currently playing through the bot.</p>
-<p>.skip - Vote to skip the current song. If you're the owner, this just skips the song.</p>
-<p>.search - wip</p>
+<p>.skip - Vote to skip the current song.</p>
+<p>.search - searches a song if the exact one coming from .play isn't correct.</p>
 <p>.shuffle - shuffleshuffleshuffle (shuffles the queue)</p>
 <p>.clear - clears the queue.</p>
 <p>.pause/.resume - you know what this does.</p>
-<p>.volume - Raises the volume through 1 - 100 (USE ACTUAL NUMBERS, NO INTEGERS.)</p>
-<p>.summon - Summons the bot to your voice channel~</p>
+<p>.volume - Raises the volume through 1 - 350 (USE ACTUAL NUMBERS, NO INTEGERS.)</p>
+<p>.connect - Summons the bot to your voice channel~</p>
 <p>.disconnect - Makes the bot leave the voice channel.</p>
 <h3>---Moderation Category---</h3>
-<p>.clean [amount] - cleans the messages said by the bot</p>
+<p>.clean (amount) - cleans the messages said by the bot</p>
+<p>.prune (amount) - cleans a number of messages on the discord channel</p>
 <p>.blacklist/.whitelist (+/-/add/remove) - Adds or removes user from the blacklist/whitelist. Blacklisted users can't use the bot, whitelisted users can if its enabled.</p>
 <p>.nickreset and .nick</p>
 <p>.listroles - Lists the roles of the server to you in a PM.</p>
 <p>.perms - Prints the permissions of the user in a PM.</p>
 <p>.ban - Banning command! Bans a user and deletes their messages 7 days prior.</p>
 <p>.unban - Works.. sometimes. Do it manually will ya?</p>
+<p>.createchannel (channel-name) - creates a channel.</p>
+<p>.deletechannel (channel-name) - deletes a channel.</p>
+<p>.createinv - makes a channel inv.</p>
+<p>.config // .showconfig - configuration part of the bot</p>
 <p>.kick - Boot someone off.</p>
 <h3>---Information Category---</h3>
 <p>.st - Speedtest <i>my bot?</i></p>
+<p>.avurl - show your avatar url from discord.</p>
+<p>.ipping - make the host of the bot ping a specific server</p>
+<p>.traceroute - make the host of the bot traceroute to a specific server ip</p>
 <p>.yourinfo - shows your information</p>
-<p>.serverdata - shows the server information</p>
 <p>.wiki (whatever it is) - TRAVEL THE PAGES OF WIKIPEDIAAA (might want to use underscores if it doesn't work w/ spaces)</p>
 <p>.stats - RTB System Statistics</p>
 <p>.ver - See version, and what date it was built on.</p>
@@ -64,7 +72,11 @@
 <p>.updates - Shows what's new</p>
 <p>.help - Prints basic list of commands.</p>
 <p>.id [@user] - Prints Discord ID of a user, or yourself.</p>
+<p>.userinfo (@user) - info on a user</p>
+<p>.yourinfo - info on you</p>
+<p>.serverinfo - info on the server</p>
 <h3>---Misc Category---</h3>
+<p>.e621 - furry porn. You saw it coming. only works on #nsfw or what's configured with .config.</p>
 <p>.kys - You already know its coming.</p>
 <p>.nope - it's obvious, your eyes are burning.</p>
 <p>.dab - Watch squiddy dab.</p>
@@ -79,8 +91,6 @@
 <p>.perf - idk something</p>
 <p>.kym (meme) - Know Your Meme</p>
 <p>.setgame - Changes the playing status</p>
-<p>.honk - honk honk</p>
-<p>.force/.deny/.allow - u know</p>
 <p>.throw [player] - throw shit at someone or at yourself</p>
 <p>.pldump (link) - playlist dump</p>
 <p>.serverinv - link to the server where RTB thus exist</p>
@@ -93,9 +103,10 @@
 <p>.uploadfile "folder/file.extension" - just grabs whatever is in the bot folder. you need to know what's in it first though lol</p>
 <p>.lameme - LA MEME XD XD XD</p>
 <p>.nick and .nickreset are WIP.</p>
-<p>.e621 and .rule34 - seriouslyiblamemyfriendsforthis</p>
+<p>.rule34 - seriouslyiblamemyfriendsforthis</p>
 <p>Coming soon - .8ball - the holy grail</p>
 <h3>---Owner Only Commands---</h3>
+<p>.objgraph - </p>
 <p><p>.msgfags (ID) (message) - *Owner Only* - Messages the user to forbid from being an idiot again.</p></p>
 <p>.spamandkys - *Owner Only* - Straightfoward, does ratelimit kek</p>
 <p>.rga - *Owner Only* - Sets a "Playing" message from the list.</p>
@@ -105,5 +116,6 @@
 <p>.terminal - *Owner Only* - Access to the VPS Terminal OuO</p>
 <p>.rtb - *Owner Only* - RTB System</p>
 <p>.spamthefuckoutofeveryone - ily2 Autumn, you bastard</p>
+<p>.permsetgame (normal/stream/reset game) - streaming when</p>
 </body>
 </html> 
