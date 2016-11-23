@@ -1,1 +1,3 @@
-
+User-Agent: ia_archiver
+ Crawl-Delay: 5
+ Disallow: /Notes/*
