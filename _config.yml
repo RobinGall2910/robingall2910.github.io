@@ -1,0 +1,8 @@
+title: robingall2910.github.io
+description: Robin's Stupid Offical Website
+google_analytics: UA-55365929-1
+show_downloads: true
+theme: jekyll-theme-merlot
+
+gems:
+  - jekyll-mentions
