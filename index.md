@@ -1,14 +1,14 @@
 # **Links**
-..* [Discord Bot Links](/links/bots.html "Click me!")
-..* [RobTheBoat's old command list](/robtheboat/info.html)
-..* [My tumblr](https://robinsmeme.tumblr.com "robinsmeme.tumblr.com")
-..* [Friend's tumblr](https://neroblackcat.tumblr.com)
-..* [Internet Rules](/internetrules.html)
-..* [Extended Internet Rules](/memes/extended.txt)
-..* [Old website with memes](/memes/index.html)
-..* [@aggelosQQ's screen identifier](/made/by/aggelos/ScreenIdentifier/index.html)
-..* [Farah's Paper, Please](/made/by/farah/papersplease.html)
-..* [TFM's command help](/tfm/command_help.html "TFM v4.3")
+- [Discord Bot Links](/links/bots.html "Click me!")
+- [RobTheBoat's old command list](/robtheboat/info.html)
+- [My tumblr](https://robinsmeme.tumblr.com "robinsmeme.tumblr.com")
+- [Friend's tumblr](https://neroblackcat.tumblr.com)
+- [Internet Rules](/internetrules.html)
+- [Extended Internet Rules](/memes/extended.txt)
+- [Old website with memes](/memes/index.html)
+- [@aggelosQQ's screen identifier](/made/by/aggelos/ScreenIdentifier/index.html)
+- [Farah's Paper, Please](/made/by/farah/papersplease.html)
+- [TFM's command help](/tfm/command_help.html "TFM v4.3")
 
 # Discord Widget
 <dl>
