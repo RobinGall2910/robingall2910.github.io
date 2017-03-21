@@ -2,7 +2,7 @@ title: Robin's Website
 description: Nothing official these days.
 google_analytics: UA-55365929-1
 show_downloads: true
-theme: jekyll-theme-merlot
+theme: jekyll-theme-time-machine
 
 gems:
   - jekyll-mentions
