@@ -19,7 +19,7 @@
 
 ```python
 while True:
-  print("Enter some bullcrap here")
+  print("ayeee")
 else if False:
   print("oh.")
   return
