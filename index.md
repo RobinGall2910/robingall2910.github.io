@@ -1,6 +1,4 @@
 # **Links**
-- [Discord Bot Links](/links/bots.html "Click me!")
-- [RobTheBoat's old command list](/robtheboat/info.html)
 - [My tumblr](https://robinsmeme.tumblr.com "robinsmeme.tumblr.com")
 - [Friend's tumblr](https://neroblackcat.tumblr.com)
 - [Internet Rules](/internetrules.html)
@@ -8,8 +6,8 @@
 - [Old website with memes](/memes/index.html)
 - [@aggelosQQ's screen identifier](/made/by/aggelos/ScreenIdentifier/index.html)
 - [Farah's Paper, Please](/made/by/farah/papersplease.html)
-- [TFM's command help](/tfm/command_help.html "TFM v4.3")
-
+- [Some Dragon Discord Invite](http://inv.rtb.dragonfire.me)
+- [Maxwell Tech Randomness](/randomness/index.html)
 ---
 
 # Discord Widget
