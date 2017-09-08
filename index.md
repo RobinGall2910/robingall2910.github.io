@@ -1,4 +1,5 @@
 # **Links**
+
 - [My tumblr](https://robinsmeme.tumblr.com "robinsmeme.tumblr.com")
 - [Friend's tumblr](https://neroblackcat.tumblr.com)
 - [Internet Rules](/internetrules.html)
@@ -8,6 +9,7 @@
 - [Farah's Paper, Please](/made/by/farah/papersplease.html)
 - [Some Dragon Discord Invite](http://inv.rtb.dragonfire.me)
 - [Maxwell Tech Randomness](/randomness/index.html)
+
 ---
 
 # Discord Widget
