@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>w</title>
+<style>
+body {
+	background: url(http://1.bp.blogspot.com/_CwSYMd9KuCE/TUqkxm0lIqI/AAAAAAAAKi4/0g2IsJ6OrvM/s1600/DSC_2493.JPG) !important;
+	background-position: center !important
+}
+#maindiv {
+	position: absolute;
+	width: 1267px;
+	height: 99px;
+	left: 35px;
+	top: 24px;
+	font-family: times-new-roman, serif;
+	font-weight: 600;
+	font-size: 48px;
+	text-align: center;
+	line-height: 85px;
+	v-align: center;
+	color: #9C6E53;
+	background-color:#E7E3D1;
+	border-radius:10px;
+}
+.memedboi {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;   
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;    
+    overflow:hidden;
+}
+.memedboi:hover {
+	-webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+.urbad {
+	-webkit-animation-name: spin;
+    -webkit-animation-duration: 750ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+.xd {
+	-webkit-animation-name: disappear;
+	-webkit-animation-duration: 750ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: bilinear;
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform:rotate(0deg);
+  }
+  to {
+    -webkit-transform:rotate(360deg);
+  }
+}
+@-webkit-keyframes disappear {
+    0%{opacity:0;}
+    25%{opacity:0.25;}
+    50%{opacity:0.50;}
+    75%{opacity:0.75;}
+    100%{opacity:1;}
+}
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 10s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 10s infinite;
+  
+  /* Standard Syntax */
+  animation: rainbow 10s infinite; 
+  cursor: wait;
+}
+.rainbow:active { 
+	cursor: help;
+	direction: left;
+ }
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow {
+	0%{color: black;}
+	20%{color: red;}
+	40%{color: #d1aa1d;}
+	60%{color: green;}
+	80%{color: blue;}
+	90%{color: orange;}
+	100%{color: black;}
+}
+</style>
+</head>
+<body class="rainbow">
+<div id="titlediv" class="memedboi xd urbad">w</div>
+</body>
+</html>
