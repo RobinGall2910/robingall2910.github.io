@@ -1,0 +1,269 @@
+<html>
+<head>
+<script>
+/*    
+
+    CRY.JS 1.0.1
+
+    ORIGINAL DISTRIBUTION: https://crytype-ifier.tumblr.com/
+
+    COPYRIGHT 2017 "A PARTICULAR TUMBLR USER"
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+*/
+function cry(text)
+{
+    var letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+    var vowels = ['a', 'e', 'i', 'o', 'u'];
+    var consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'x', 'z', 'w'];
+    var punctuation = [',', '"', ";", ".", "!", "?"];
+    var endingPunctuation = [',', '.', '?', '!'];
+    var excitedPunctuation = ['?', '!'];
+
+    function getRandomInt(min, max)
+    {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function isLetter(char)
+    {
+        return letters.includes(char);
+    }
+
+    function isVowel(char)
+    {
+        return vowels.includes(char);
+    }
+
+    function isConsonant(char)
+    {
+        return consonants.includes(char);
+    }
+
+    function isPunctuation(char)
+    {
+        return punctuation.includes(char);
+    }
+
+    function isEndingPunctuation(char)
+    {
+        return endingPunctuation.includes(char);
+    }
+
+    function isExcitedPunctuation(char)
+    {
+        return excitedPunctuation.includes(char);
+    }
+
+    function isApos(char)
+    {
+        return char === '\'';
+    }
+
+    function isPlease(index, string)
+    {
+        if (index + 6 >= string.length)
+            return false;
+        if (string.substring(index, index + 6) === "please")
+            return true;
+    }
+
+    function isYou(index, string)
+    {
+        if (index + 3 >= string.length)
+            return false;
+        if (string.substring(index, index + 3) === "you")
+            return true;
+    }
+
+    function isIng(index, string)
+    {
+        if (index + 3 >= string.length)
+            return false;
+        if (string.substring(index, index + 3) === "ing")
+            return true;
+    }
+
+    function isIDK(index, string)
+    {
+        //I DON'T KNOW
+        if (index + 12 >= string.length)
+            return false;
+        if(string.substring(index, index + 12) === "i don\'t know")
+            return true;
+    }
+
+    function isTBH(index, string)
+    {
+        //TO BE HONEST
+        if (index + 12 >= string.length)
+            return false;
+        if(string.substring(index, index + 12) === "to be honest")
+            return true;
+    }
+
+    function isWordStart(index, string)
+    {
+        if (index === (string.length - 1)) return false;
+        if (index === 0)
+            return true;
+        if ((string[index - 1] == " " || endingPunctuation.includes(string[index - 1])) && letters.includes(string[index])) return true;
+        return false;
+    }
+
+    function isWordEnd(index, string)
+    {
+        if (index === 0)
+            return false;
+        if (index === (string.length - 1)) return true;
+        if ((string[index + 1] == " " || endingPunctuation.includes(string[index + 1])) && letters.includes(string[index])) return true;
+        return false;
+    }
+
+    function double(char)
+    {
+        var multiply = getRandomInt(2, 4);
+        return Array(multiply).join(char);
+    }
+
+    function space(char)
+    {
+        return " " + char;
+    }
+
+    function swap(index, string)
+    {
+        var subStr = string.substring(index, index + 1);
+        return subStr.split("").reverse().join("");
+    }
+
+    function vowelWarp(char)
+    {
+        var vowelChoice = vowels[getRandomInt(0, vowels.length - 1)];
+        return char + vowelChoice;
+    }
+
+    function commaNonsense()
+    {
+        var multiply = getRandomInt(2, 5);
+        return Array(multiply).join(',');
+    }
+
+    function semicolonNonsense()
+    {
+        var multiply = getRandomInt(1, 4);
+        return Array(multiply).join(';');
+    }
+
+    var newString = '';
+    text = text.toLowerCase();
+    for (var i = 0; i < text.length; i++)
+    {
+        // CASES
+        // please
+        if (isPlease(i, text))
+        {
+            newString += 'pls';
+            i += 6;
+        }
+        // ing
+        else if (isIng(i, text))
+        {
+            newString += 'in';
+            i += 3;
+        }
+        // you
+        else if (isYou(i, text))
+        {
+            newString += 'u';
+            i += 3;
+        }
+        // idk
+        else if (isIDK(i, text))
+        {
+            newString += 'idk';
+            i += 12;
+        }
+        // tbh
+        else if (isTBH(i, text))
+        {
+            newString += 'tbh';
+            i += 12;
+        }
+        // punctuation
+        else if (isEndingPunctuation(text[i]) && isWordEnd(i, text))
+        {
+            newString += commaNonsense();
+        }
+        else if (isApos(text[i]))
+        {
+            newString += semicolonNonsense();
+        }
+        else if (isExcitedPunctuation(text[i]))
+        {
+            newString += double(text[i]);
+            newString += double(text[i]);
+        }
+        // big if case to prevent totally garbled text
+        else if (getRandomInt(0, 10) > 8)
+        {
+            // voewael waerping
+            if (isVowel(text[i]) && getRandomInt(0, 20) > 15)
+            {
+                newString += vowelWarp(text[i]);
+            }
+            // letetr swapnig 
+            else if (getRandomInt(0, 30) > 25)
+            {
+                newString += swap(i, text);
+            }
+            // genneral ccccconssonant stutttttterrrr
+            else if (isConsonant(text[i]) && getRandomInt(0, 20) > 15)
+            {
+                newString += double(text[i]);
+            }
+            // sud denly spac ing
+            else if (getRandomInt(0, 30) > 25)
+            {
+                newString += space(text[i]);
+            }
+            else
+            {
+            newString += text[i];
+            }
+        }
+        else
+        {
+            newString += text[i];
+        }
+    }
+
+    return newString;
+
+}</script>
+</head>
+<body>
+<h1>crytype-ifier</h1>
+<h2>forked from crytype-ifier on tumblr...,,...</h2>
+<h4>put you text inhe box, and click "cr y",,<br>
+<br>
+i din;;;t meantto mak e it. i;mo sorry... ijust love javascr ipt too muchhh. i;;;m a terrble person. im so so o sorry. please,,,,</h4>
+
+<textarea class="form-control" rows="3" id="cry-input"></textarea>
+<a class="btn btn-default" href="#" role="button" id="btn-cry">cry</a>
+<p id="cry-output"></p>
+</body>
+</html>
+
