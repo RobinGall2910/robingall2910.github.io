@@ -6,6 +6,14 @@
         <title>Crossover Project</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+        <script>
+            function updatemessage(jssucks){
+                if(jssucks == "1"){
+                    document.getElementById("partname").innerHTML="One";
+                    document.getElementById("partdesc").innerHTML="Fear";
+                }
+            }
+        </script>
     </head>
     <body>
         <section class="hero is-medium is-dark is-bold">
@@ -23,19 +31,36 @@
         <div class="tile is-parent">
             <article class="tile is-child notification is-dark">
                 <p class="title">Cockpit</p>
-                <p class="subtitle">Test Pilot - Frasca 141</p>
+    <p class="subtitle">Test Pilot - Frasca 141</p>
                 <figure class="image">
                     <div class="cockpit">
-                        <img src="https://github.com/robingall2910/robingall2910.github.io/raw/master/maxwelltech/programming/crossoverproj/20171114_090413.jpg">
-                    </div>
+                        <img src="https://github.com/robingall2910/robingall2910.github.io/raw/master/maxwelltech/programming/crossoverproj/20171114_090413.jpg" border="0" usemap="#pilotmap">
+                        <map name="pilotmap">
+                          <area shape="rect" coords="1819,1221,1880,1334" onclick="javascript:updatemessage('9')" onmouseover="cursor:pointer">
+                          <area shape="rect" coords="1936,1080,1995,1159" onclick="javascript:updatemessage('10')" onmouseover="cursor:pointer">
+                          <area shape="rect" coords="1516,1326,1745,1444" onclick="javascript:updatemessage('8')" onmouseover="cursor:pointer">
+                          <area shape="circle" coords="1419,1302,38" onclick="javascript:updatemessage('7')" onmouseover="cursor:pointer">
+                          <area shape="rect" coords="520,1228,834,1296" onclick="javascript:updatemessage('15')" onmouseover="cursor:pointer">
+                          <area shape="rect" coords="778,1130,1220,1312" onclick="javascript:updatemessage('16')" onmouseover="cursor:pointer">
+                          <area shape="rect" coords="246,990,422,1104" onclick="javascript:updatemessage('2')" onmouseover="cursor:pointer">
+                          <area shape="rect" coords="188,652,392,800" onclick="javascript:updatemessage('3')" onmouseover="cursor:pointer">
+                          <area shape="rect" coords="562,820,816,984" onclick="javascript:updatemessage('17')" onmouseover="cursor:pointer">
+                          <area shape="rect" coords="554,314,1358,572" onclick="javascript:updatemessage('1')" onmouseover="cursor:pointer">
+                          <area shape="rect" coords="812,555,1126,781" onclick="javascript:updatemessage('1')" onmouseover="cursor:pointer">
+                          <area shape="circle" coords="2432,1006,87" onclick="javascript:updatemessage('5')" onmouseover="cursor:pointer">
+                          <area shape="circle" coords="2086,1181,52" onclick="javascript:updatemessage('12')" onmouseover="cursor:pointer">
+                          <area shape="rect" coords="1984,1215,2192,1315" onclick="javascript:updatemessage('11')" onmouseover="cursor:pointer">
+                        </map>
+          </div>
         </div>
         <div class="tile is-ancestor">
         <div class="tile is-vertical is-parent">
         <div class="tile is-child box">
-        <p class="title">One</p>
+        <p class="title" id="partname">Nothing here!</p>
+        <p class="subtitle" id="partdesc">Click on a part to continue!</p>
         </div>
         </div>
-        </div>
+</div>
         </figure>
         </article>
     </body>
