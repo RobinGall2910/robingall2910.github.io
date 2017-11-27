@@ -11,14 +11,18 @@
                 if(jssucks == "main thrusters"){
                     document.getElementById("partname").innerHTML="Main Thrusters";
                     document.getElementById("partdesc").innerHTML="Controls the actual velocity of the plane by increasing the thruster or lowering it.";
-                    document.getElementById("pilotpic").src='https://raw.githubusercontent.com/robingall2910/robingall2910.github.io/master/maxwelltech/programming/crossoverproj/dllhost_2017-11-16_08-27-06.png';
-                    document.getElementById("pilotpic").width='130';
-                    document.getElementById("pilotpic").height='194';
+                    document.getElementById("pilotpic").src='https://media.discordapp.net/attachments/211004411344977920/384697564156526592/firefox_2017-11-27_08-20-49.png';
                 }
                 if(jssucks == "yoke"){
-                    document.getElementById("partname").innerHTML="One";
-                    document.getElementById("partdesc").innerHTML="Fear";
-                    document.getElementById("pilotpic").src='https://raw.githubusercontent.com/robingall2910/robingall2910.github.io/master/maxwelltech/programming/crossoverproj/dllhost_2017-11-16_08-27-40.png';
+                    document.getElementById("partname").innerHTML="Yoke";
+                    document.getElementById("partdesc").innerHTML="Steering wheel of the airplane";
+                    document.getElementById("pilotpic").src='https://cdn.discordapp.com/attachments/211004411344977920/384697586344525824/firefox_2017-11-27_08-19-47.png';
+                }
+                if(jssucks == "altitude"){
+                    document.getElementById("partname").innerHTML="Altitude";
+                    document.getElementById("partdesc").innerHTML="Tells you how high you are up in the sky, by feet";
+                    document.getElementById("pilotpic").src='https://cdn.discordapp.com/attachments/211004411344977920/384702991371993088/firefox_2017-11-27_08-51-38.png';
+
                 }
             }
         </script>
@@ -42,7 +46,7 @@
     <p class="subtitle">Test Pilot - Frasca 141</p>
                 <figure class="image">
                     <div class="cockpit">
-                        <img id="pilotpic" src="https://github.com/robingall2910/robingall2910.github.io/raw/master/maxwelltech/programming/crossoverproj/20171114_090413.jpg">
+                        <img id="pilotpic" src="https://github.com/robingall2910/robingall2910.github.io/raw/master/maxwelltech/programming/crossoverproj/20171114_090413.jpg" width="130px">
         </div>
     </div>
 
@@ -50,7 +54,7 @@
         <div class="tile is-vertical is-parent">
         <div class="tile is-child box">
         <p class="title">Click on one of the terms below.</p>
-        <p class="subtitle"><a onclick="javascript:updatestuff('main thrusters');">Main Thrusters</a> / <a onclick="javascript:updatestuff('yoke');">Yoke</a></p>
+        <p class="subtitle"><a onclick="javascript:updatestuff('main thrusters');">Main Thrusters</a> / <a onclick="javascript:updatestuff('yoke');">Yoke</a> / <a onclick="javascript:updatestuff('altitude');">Altitude</a></p>
         </div>
         <div class="tile is-child box">
             <p class="title" id="partname"></p>
