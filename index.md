@@ -16,7 +16,7 @@
 
 # Discord Widget
 <dl>
-<iframe src="https://discordapp.com/widget?id=250777932849479681&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+<iframe src="https://discordapp.com/widget?id=367151971993387008&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
 </dl>
 
 ```python
