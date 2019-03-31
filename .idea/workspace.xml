@@ -1,17 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="827dc8b4-1526-49c0-b2fa-333129566e83" name="Default" comment="ooga booga">
+    <list default="true" id="827dc8b4-1526-49c0-b2fa-333129566e83" name="Default" comment="ok move everything delete shit etc etc etc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chee.html" beforeDir="false" afterPath="$PROJECT_DIR$/chee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tfm/command_help.html" beforeDir="false" afterPath="$PROJECT_DIR$/tfm/command_help.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website trash/Untitled-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website trash/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website trash/img/200x200.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website trash/img/35X35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website trash/img/400x400.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website trash/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website trash/js/jquery-1.11.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/SaharanAfrica.mht" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/Sub.-.Saharan.Africa.mht" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/Unit 3 Chapt 13.mht" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/Unit 5 Study Guide (Answers 27-35).mht" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/Unit 5.mht" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/Unit 6 Chapt 28.mht" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/World Geography.mht" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/World.Geography.mht" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/index.html_files/icons/ico16_basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/index.html_files/icons/ico32_basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/index.html_files/images/column_handle_00121c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/index.html_files/images/expand_group_00121c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/index.html_files/images/fold_group_00121c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/index.html_files/images/note_background_00121c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/index.html_files/images/spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/na_cultures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/na_cultures.html_files/icons/ico16_basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/na_cultures.html_files/icons/ico32_basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/na_cultures.html_files/images/column_handle_00121c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/na_cultures.html_files/images/expand_group_00121c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/na_cultures.html_files/images/fold_group_00121c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/na_cultures.html_files/images/note_background_00121c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/na_cultures.html_files/images/spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/WorldGeo/safrica" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/testcolor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Bold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Bold-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Bold-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-BoldItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-BoldItalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-BoldItalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-BoldItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Italic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Italic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Italic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Italic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Light-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Light-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Light-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-LightItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-LightItalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-LightItalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-LightItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Semibold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Semibold-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Semibold-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-Semibold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-SemiboldItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-SemiboldItalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-SemiboldItalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans-SemiboldItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashs/14/9/30/checksums.md4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashs/14/9/30/checksums.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashs/14/9/30/checksums.sfv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashs/14/9/30/checksums.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kaepperdiscord/info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/links/bots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/made/by/aggelos/ScreenIdentifier/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/made/by/cakez/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/made/by/farah/papersplease.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/made/by/me/for/my/bitchtemmie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/made/by/me/idontcare.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/made/by/me/somebullshit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/made/by/me/supposedindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nero/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nero/trashyindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldindex.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/github/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/github/random.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/github/scr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robtheboat/info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robtheboat/noonecares.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/someshit/mybb.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,94 +93,71 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oldindex.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="552">
-                <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="87" />
-              <folding>
-                <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#article#0;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#dl#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#article#1;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#dl#1;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chee.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nothing.htm">
+        <entry file="file://$PROJECT_DIR$/tfm/permbans.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/internetrules.html">
+        <entry file="file://$PROJECT_DIR$/dead/random/github/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dead/random/github/random.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2967" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dead/someshit/mybb.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="41" column="86" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trashcan/404-backup.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tfm/command_help.html">
+        <entry file="file://$PROJECT_DIR$/dead/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="2423" column="14" lean-forward="true" selection-start-line="2423" selection-start-column="14" selection-end-line="2423" selection-end-column="14" />
+            <state relative-caret-position="161">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robtheboat/info.html">
+        <entry file="file://$PROJECT_DIR$/dead/nero/trashyindex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-            </state>
+            <state relative-caret-position="-173" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robtheboat/noonecares.html">
+        <entry file="file://$PROJECT_DIR$/dead/links/bots.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dead/kaepperdiscord/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="2142" lean-forward="true" selection-start-line="2142" selection-end-line="2142" />
-            </state>
+            <state relative-caret-position="-127" />
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascripts/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -138,6 +186,9 @@
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/chee.html" />
         <option value="$PROJECT_DIR$/tfm/command_help.html" />
+        <option value="$PROJECT_DIR$/tfm/permbans.html" />
+        <option value="$PROJECT_DIR$/someshit/mybb.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -162,45 +213,6 @@
               <item name="robingall2910.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="robingall2910.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="robingall2910.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robingall2910.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="maxwelltech" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robingall2910.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robingall2910.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="maxwelltech" type="462c0819:PsiDirectoryNode" />
-              <item name="programming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robingall2910.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robingall2910.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="maxwelltech" type="462c0819:PsiDirectoryNode" />
-              <item name="programming" type="462c0819:PsiDirectoryNode" />
-              <item name="randomness" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robingall2910.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robingall2910.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="random" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robingall2910.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robingall2910.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="random" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robingall2910.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robingall2910.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="robtheboat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robingall2910.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robingall2910.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="tfm" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -218,6 +230,13 @@
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\robin\WebstormProjects\robingall2910.github.io\dead" />
+      <recent name="C:\Users\robin\WebstormProjects\robingall2910.github.io\old stuff" />
+      <recent name="C:\Users\robin\WebstormProjects\robingall2910.github.io" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,7 +262,7 @@
       <updated>1513133865251</updated>
       <workItem from="1522374863651" duration="262000" />
       <workItem from="1522375221502" duration="380000" />
-      <workItem from="1554061791154" duration="8213000" />
+      <workItem from="1554061791154" duration="8847000" />
     </task>
     <task id="LOCAL-00001" summary="HERE WE GOOoOOoO">
       <created>1554062071198</created>
@@ -287,15 +306,35 @@
       <option name="project" value="LOCAL" />
       <updated>1554070074528</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delete this, update that">
+      <created>1554070236939</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554070236939</updated>
+    </task>
+    <task id="LOCAL-00008" summary="yeah">
+      <created>1554070339420</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554070339420</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ok move everything delete shit etc etc etc">
+      <created>1554070614682</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554070614682</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8855000" />
+    <option name="totallyTimeSpent" value="9489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13171759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -327,17 +366,20 @@
     <MESSAGE value="hell" />
     <MESSAGE value="how does this work" />
     <MESSAGE value="ooga booga" />
-    <option name="LAST_COMMIT_MESSAGE" value="ooga booga" />
+    <MESSAGE value="delete this, update that" />
+    <MESSAGE value="yeah" />
+    <MESSAGE value="ok move everything delete shit etc etc etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok move everything delete shit etc etc etc" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/robtheboat/info.html">
+    <entry file="file://$PROJECT_DIR$/dead/robtheboat/info.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oldindex.md">
+    <entry file="file://$PROJECT_DIR$/dead/oldindex.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="552">
@@ -352,7 +394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robtheboat/noonecares.html">
+    <entry file="file://$PROJECT_DIR$/dead/robtheboat/noonecares.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="2142" lean-forward="true" selection-start-line="2142" selection-end-line="2142" />
@@ -397,7 +439,7 @@
     <entry file="file://$PROJECT_DIR$/nothing.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -412,7 +454,55 @@
     <entry file="file://$PROJECT_DIR$/tfm/command_help.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
-          <caret line="2423" column="14" lean-forward="true" selection-start-line="2423" selection-start-column="14" selection-end-line="2423" selection-end-column="14" />
+          <caret line="2423" column="14" selection-start-line="2423" selection-start-column="14" selection-end-line="2423" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tfm/permbans.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dead/nero/trashyindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dead/links/bots.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dead/kaepperdiscord/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dead/random/github/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dead/random/github/random.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2967" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dead/someshit/mybb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="41" column="86" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trashcan/404-backup.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dead/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
